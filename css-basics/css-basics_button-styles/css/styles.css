@@ -32,18 +32,26 @@ Make sure not to put your code into the comments, because then nothing will happ
 
 .button1 {
   /* Style me! Change my border, set a border radius or try out other styles. :) */
+  border: 10px solid red;
+  border-radius: 2px;
 }
 
 .button2 {
   /* Style me! Change my color or background-color, or both! You can experiment with different color formats here, like HEX, RGB, etc. */
+  background-color: green;
+
+
 }
 
 .button3 {
   /* Style me! You can test out changing the font, font size, ...*/
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 300%;
 }
 
 .button4 {
   /* Style me! Can you add a shadow to this button? Try playing around with shadow properties - you can even change the shadow color, size, and more. */
+  text-shadow: 20px;
 }
 
 /* Feel free to play around with other properties, too. */
