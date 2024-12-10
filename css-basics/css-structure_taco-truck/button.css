@@ -1,0 +1,7 @@
+button{
+    width: 350px;
+    align-self: center;
+background-color: coral;
+border-radius: 10px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
