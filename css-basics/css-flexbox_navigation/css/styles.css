@@ -15,6 +15,9 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
+  
 }
 
 .header {
@@ -28,4 +31,6 @@ ul {
   color: #ffffff;
   padding: 5px 14px;
   border-radius: 5px;
+  flex-wrap: wrap;
+  
 }
