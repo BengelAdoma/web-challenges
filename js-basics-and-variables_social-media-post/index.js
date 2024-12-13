@@ -8,7 +8,11 @@ console.clear();
 	- the user who created the post
 	- a boolean called `isReported` to indicate whether the post has been reported
 */
-
+const title = "Selfies";
+let numberOfLikes = 0;
+numberOfLikes++;
+const user = "Benny Adoma";
+const isReported = true
 // --v-- write your code here --v--
 
 // --^-- write your code here --^--
@@ -16,7 +20,10 @@ console.clear();
 /*
 2. Log all variables to the console. Then increase the number of likes by one and log the updated like count. Modify your code from step 1 if necessary.
 */
-
+console.log("title :", title)
+console.log("numberOfLikes :", numberOfLikes)
+console.log("user :",user)
+console.log("isReported:",isReported)
 // --v-- write your code here --v--
 
 // --^-- write your code here --^--
