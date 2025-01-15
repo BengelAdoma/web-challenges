@@ -1,3 +1,12 @@
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+  return <Greetings name ="Benny"/>;
+}
+
+function Greetings(props){
+  let benny = props.name.toUpperCase()
+  return <>
+  
+  <h1>{benny}</h1>
+  <p>{benny}</p>
+  </>
 }
