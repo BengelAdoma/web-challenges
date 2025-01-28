@@ -4,6 +4,7 @@ import { BoxWithStyledComponents } from "@/components/BoxWithClassName/BoxWithSt
 
 
 export default function HomePage() {
+  console.log("")
   return (
     <div>
       <BoxWithStyledComponents/>
